@@ -1,0 +1,15 @@
+{
+  "name": "knip-weirdness",
+  "private": true,
+  "workspaces": [
+    "ui"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.3",
+    "typescript": "4.7.4"
+  },
+  "scripts": {
+    "knip": "yarn workspace ui knip --production"
+  },
+  "packageManager": "yarn@1.22.19"
+}
